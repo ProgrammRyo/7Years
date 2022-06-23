@@ -1,4 +1,10 @@
-J j h g d g d g d g
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 9*60 + 25 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[J j h g d g d g d g
 J j h g d g d g d g
 J j h g d g d g d g
 J j h g d g d g d g
@@ -37,4 +43,4 @@ h g g d g s P o d g s P o
 d ss ss ss P d s P
 h g g d g s P
 J j h g d g d g d
-h g g d g s P
+h g g d g s P]]
